@@ -1,0 +1,51 @@
+@startuml
+Title Cupcake
+|Bruger|
+start
+:gå til hjemmeside;
+|Hjemmeside|
+fork
+:opret bruger;
+repeat
+:indtast oplysninger;
+repeat while (hvis brugernavn er optaget) is (ja)
+:log ind;
+detach
+fork again
+:log ind;
+end fork
+fork
+|#AntiqueWhite| Admin |
+:admin;
+if (adminside)
+:se alle ordre;
+else ()
+  :indsæt et beløb;
+endif
+detach
+fork again
+|Bruger|
+:kunde;
+end fork
+fork
+:kundeside;
+:se ordrehistorik;
+:tilbage til forside;
+detach
+fork again
+:tilbage til forside;
+end fork
+repeat
+:vælg topping;
+:vælg bund;
+:vælg antal;
+:læg i kurv;
+repeat while (bestiller mere) is (ja)
+:betal;
+:afslut ordre;
+:log ud;
+|Butik|
+:afhent ordre;
+stop
+@enduml
+

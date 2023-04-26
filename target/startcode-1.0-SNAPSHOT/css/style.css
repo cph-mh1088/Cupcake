@@ -1,0 +1,270 @@
+/* CSS stylesheet  for application */
+
+.hero-img {
+    width: 100% !important;
+    background-color: #EEE5D1 !important;
+    border-bottom: 2px solid #000 !important;
+    text-align: center !important;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+th, td {
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: #EEE5D1;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    box-sizing: inherit;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0 !important;
+    margin-top: 10px;
+}
+
+.basket-button {
+    background-color: #04143B !important;
+    border-radius: 5px;
+    color: white !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 4px 10px !important;
+    margin-left: 20px;
+
+}
+
+.basket-button-buy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4px 20px !important;
+}
+
+#body {
+    background-color: #EEE5D1;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.designtext {
+    padding-top: 40px;
+}
+
+#topping, #bottom, #antal {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#top,
+#bottom,
+#antal {
+    background-color: white !important;
+    color: #333333 !important;
+    /*font-family: Montserrat, sans-serif !important;*/
+    border: 0 !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 10px 60px !important;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#ordre {
+    width: 90% !important;
+    background-color: white !important;
+    color: #333333 !important;
+    /*font-family: Montserrat, sans-serif !important;*/
+    border: 0 !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 10px 10px !important;
+    margin: 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.admin-col .col-6 {
+    display: inline-flex;
+}
+
+
+#tilføj {
+    /*font-family: Montserrat, sans-serif;*/
+    background-color: #04143B !important;
+    border-radius: 5px;
+    color: white !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 8px 20px !important;
+    margin-left: 10px;
+    margin-top: -5px !important;
+
+}
+
+h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 30px !important;
+}
+
+.userinfo {
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.account, .orders {
+    width: 47%;
+    padding: 20px;
+    background-color: #f8efdc;
+    border-radius: 10px;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+}
+
+.cupcake-bottom-picture {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.kurv {
+    background-color: #EEE5D1;
+}
+
+/* here you can adjust the icons and username in the navnbar  */
+.navbar-nav {
+    transform: translateY(-15px);
+}
+
+.dropdown-buttons {
+    border: 0 !important;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+#dropdownMenuButton, #dropdownMenuButton1 {
+    border: 0 !important;
+    margin-top: 20px;
+}
+
+#dropdownMenuButton1 {
+    margin-right: 20px;
+}
+
+.logged-in {
+    text-decoration: none;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.loginbuttons {
+
+    color: #333333 !important;
+    /*font-family: Montserrat, sans-serif !important;*/
+    border: 0 !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 10px 60px !important;
+    margin: auto;
+    border-radius: 5px;
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+.loginknap {
+    background-color: #04143B !important;
+    border-radius: 5px;
+    color: white !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 8px 20px !important;
+    margin-top: 15px !important;
+    margin-bottom: 20px;
+}
+
+.loginbuttons .tilbage {
+    margin-top: 0 !important;
+}
+
+.signupknap {
+    background-color: #04143B !important;
+    border-radius: 5px;
+    color: white !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 8px 20px !important;
+    margin-top: 15px !important;
+    margin-bottom: 20px;
+}
+
+.signup-tilbage {
+    margin-top: 5px !important;
+}
+
+.back-btn {
+    background-color: #04143B !important;
+    border-radius: 5px;
+    color: white !important;
+    box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 16px -4px rgba(0, 0, 0, 0.55);
+    padding: 8px 20px !important;
+    margin-top: 25px !important;
+}
+
+.kortinfo {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+
+    background-color: #91a1c7;
+}
+
+.walletinfo {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+
+
+    background-color: #91a1c7;
+}
+
+body {
+    background-color: #EEE5D1;
+
+}
+
+.infosum {
+    text-shadow: black;
+    font-weight: bold;
+
+    color: #f3f3f5;
+}
+
+.infobox {
+    background-color: #f3f3f5;
+}
+
+
+

@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+
+title Cupcake
+state index.jsp
+state error.jsp
+state login.jsp
+state buypage.jsp
+state welcome.jsp
+state welcomeAdmin.jsp
+state welcomeUser.jsp
+
+[*] --> index.jsp
+
+index.jsp --> createuser.jsp
+index.jsp --> login.jsp
+createuser.jsp --> index.jsp
+welcome.jsp --> index.jsp
+index.jsp --> welcomeUser.jsp:hvis bruger
+welcomeUser.jsp --> index.jsp
+index.jsp --> welcomeAdmin.jsp :hvis admin
+index.jsp --> buypage.jsp: hvis logget ind
+buypage.jsp --> index.jsp
+login.jsp --> welcome.jsp
+welcome.jsp --> index.jsp
+login.jsp --> welcome.jsp: godkendt login
+login.jsp --> error.jsp: forkert login
+error.jsp --> login.jsp
+error.jsp --> index.jsp
+@enduml
+
